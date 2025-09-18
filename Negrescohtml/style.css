@@ -31,7 +31,7 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #8b878b;
+    background-color: #f8f5f8;
     position: fixed;
     padding-left: 30rem;
 }
@@ -46,7 +46,7 @@ html {
 
 
 .logo h3 {
-   color: white;
+   color: rgb(10, 10, 10);
    font-size: 2.6rem;
 
 }
@@ -69,7 +69,7 @@ html {
     padding-bottom: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    color: rgb(255, 255, 255);
+    color: rgb(10, 10, 10);
     font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 500;
@@ -78,8 +78,8 @@ html {
 
 .content .list-menu li a:hover{
     background-color: #333333;
-    border-bottom: 4px solid #ffc506;  
-    color: #ffc506;
+    border-bottom: 4px solid #3ae2be;  
+    color: #e7ab06;
 }
 
 /* Primeira Seção */
@@ -87,7 +87,7 @@ html {
 .first-section{
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(./img/fundopizza.jpg);
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(./img/ilustracao-de-padrao-de-clube-do-livro-linda_23-2149330102.avif);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -107,7 +107,7 @@ html {
 }
 
 .first-section h1{
-    color: #ffc506;
+    color: #2fc0a1;
     font-size: 6rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
@@ -151,25 +151,25 @@ html {
 
 /* Cardápio */
 
-.cardapio {
+.Biblioteca {
     width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(rgba(12, 12, 12, 0.8), rgba(15, 15, 15, 0.8)), url(/img/cardapio.jpg);
+    background-image: linear-gradient(rgba(134, 119, 119, 0.8), rgba(141, 128, 128, 0.8)), url(./img/ilustracao-de-padrao-de-clube-do-livro-linda_23-2149330102.avif);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.cardapio h2 {
+.Biblioteca h2 {
     font-size: 5rem;
-    color: #e6e6e6;
+    color: #34bdbd;
     text-transform: uppercase;
 }
 
-.itens-cardapio {
+.Biblioteca {
     width: 80%;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -180,8 +180,8 @@ html {
     gap: 30px;
 }
 
-.itens-cardapio .info {
-    background-color: rgb(221, 221, 221);
+.itens-Biblioteca .info {
+    background-color: rgb(128, 107, 107);
     border: none;
     display: flex;
     flex-direction: column;
@@ -190,14 +190,14 @@ html {
     padding: 1.5rem;
 }
 
-.itens-cardapio .info h3 {
+.itens-Biblioteca .info h3 {
     font-size: 1.8rem;
     text-transform: uppercase;
     margin-bottom: 1rem;
     text-decoration: underline;
 }
 
-.itens-cardapio .info h4 {
+.itens-Biblioteca .info h4 {
     font-size: 1.4rem;
     text-transform: uppercase;
     margin-bottom: 0.6rem;
@@ -208,24 +208,24 @@ html {
     margin-left: 6rem;
 }
 
-.itens-cardapio .info h4 span{
+.itens-Biblioteca .info h4 span{
     font-size: 1.6rem;
     color:#585858;
     margin-left: 1.5rem;
     text-decoration: underline;
 }
 
-.itens-cardapio div {
+.itens-Biblioteca div {
     background-color: #5e5252;
     box-shadow: 0px 0px 4px 1px ;
 }
 
-.itens-cardapio img {
+.itens-Biblioteca img {
     width: 100%;
     height: 200px;
 }
 
-.itens-cardapio .info .pedir {
+.itens-Biblioteca .info .pedir {
     width: 200px;
     height: 35px;
     margin-top: 0.5rem;
@@ -237,9 +237,9 @@ html {
     transition: all 200ms ease-in;
 }
 
-.itens-cardapio .info .pedir:hover {
+.itens-Biblioteca .info .pedir:hover {
     background-color: #5e5252;
-    color: rgb(255, 255, 255);
+    color: rgb(7, 4, 4);
 }
 
 /* Sobre nós */
@@ -248,7 +248,7 @@ html {
     background-color: #1f1e1f;
     width: 100%;
     padding-bottom: 5rem;
-    color: white;
+    color: rgb(255, 254, 254);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -290,13 +290,13 @@ html {
 
 .contatos {
     width: 100%;
-    background-color: #1f1e1f;
+    background-color: #f3eff3;
     display: flex;
     flex-direction: column;
     justify-content: Center;
     align-items: center;
     font-size: 1.8rem;
-    color: white;
+    color: rgb(252, 248, 248);
     padding-bottom: 4rem;
 }
 
